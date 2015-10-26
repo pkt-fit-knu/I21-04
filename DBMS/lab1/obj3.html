@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+
+  <script type="text/javascript">
+
+var o = {
+f:5
+};
+
+var b = Object.create(o);
+b.f=5;
+b.t=true;
+
+function buttonclick(button) {
+
+
+
+var c = new Object();
+for(stock in o)
+for(stock1 in b)
+{
+if(b[stock] == o[stock])delete b[stock] 
+c[stock]=b[stock];
+c[stock]=o[stock];
+}
+
+console.log(c);
+}
+
+
+</script>
+</head>
+<body>
+<p>First Application </p>
+
+<input type="button" name="ok" value="OK" onclick="buttonclick(this)"/>
+
+
+
+</body>
+</html>

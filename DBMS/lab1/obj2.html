@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+
+  <script type="text/javascript">
+
+var o = {
+f:5
+};
+
+var b = Object.create(o);
+
+b.t=true;
+
+
+function buttonclick(button) {
+
+
+
+var c = new Object();
+for(stock in b)
+{
+if(b.hasOwnProperty(stock))c[stock]=b[stock];
+}
+
+console.log(c);
+}
+
+
+</script>
+</head>
+<body>
+<p>First Application </p>
+
+<input type="button" name="ok" value="OK" onclick="buttonclick(this)"/>
+
+
+
+</body>
+</html>
