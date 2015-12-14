@@ -1,0 +1,289 @@
+
+CREATE DATABASE movie;
+\c movie;
+CREATE TABLE Artist(artist_id INT NOT NULL PRIMARY KEY,birthday INT NOT NULL CHECK(birthday>0),name_art TEXT DEFAULT 'undef',surname_art TEXT NOT NULL);
+
+INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(1, 120493,'Mark','Denils');
+INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(2, 020795,'Juli','Klin');
+INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(3, 100785,'Ann','Lirman');
+
+INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(4, 180497,'Lena','Anabel');
+
+INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(5, 210889,'Nina','Dobrev');
+
+CREATE TABLE Writes(movie_title TEXT NOT NULL PRIMARY KEY, artist_id INT NOT NULL,FOREIGN KEY(artist_id) REFERENCES Artist(artist_id));
+
+INSERT INTO Writes(movie_title, artist_id) VALUES('Future', 2);
+
+INSERT INTO Writes(movie_title, artist_id) VALUES('Summer', 5);
+
+INSERT INTO Writes(movie_title, artist_id) VALUES('Remember', 1);
+
+INSERT INTO Writes(movie_title, artist_id) VALUES('Home', 3);
+
+INSERT INTO Writes(movie_title, artist_id) VALUES('New Year', 3);
+
+INSERT INTO Writes(movie_title, artist_id) VALUES('Cry', 4);
+
+CREATE TABLE Acts(n_movie INT NOT NULL PRIMARY KEY, movie_title TEXT NOT NULL UNIQUE, artist_id INT NOT NULL, FOREIGN KEY(movie_title) REFERENCES Writes(movie_title), FOREIGN KEY(artist_id) REFERENCES Artist(artist_id));
+
+INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(1, 'Remember', 1);
+
+INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(2, 'Future', 2);
+
+INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(3, 'Home', 3);
+
+INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(4, 'New Year', 3);
+
+INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(5, 'Cry', 4);
+
+INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(6, 'Summer', 5);
+
+CREATE TABLE Studio(studio_name TEXT PRIMARY KEY, address TEXT NOT NULL);
+
+INSERT INTO Studio(studio_name, address) VALUES('DV', '45f');
+
+
+          
+INSERT INTO Studio(studio_name, address) VALUES('A&V', '558');
+
+INSERT INTO Studio(studio_name, address) VALUES('TTeam', 'ph31');
+
+CREATE TABLE Movie(movie_title TEXT NOT NULL UNIQUE, studio_name TEXT NOT NULL, FOREIGN KEY(movie_title) REFERENCES Writes(movie_title), FOREIGN KEY(studio_name) REFERENCES Studio(studio_name));
+                                         
+INSERT INTO Movie(movie_title, studio_name) VALUES('Future','TTeam');
+
+INSERT INTO Movie(movie_title, studio_name) VALUES('Summer','TTeam');
+
+INSERT INTO Movie(movie_title, studio_name) VALUES('Remember','A&V');
+
+INSERT INTO Movie(movie_title, studio_name) VALUES('Home','DV');
+INSERT INTO Movie(movie_title, studio_name) VALUES('New Year','DV');
+
+INSERT INTO Movie(movie_title, studio_name) VALUES('Cry','DV');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server [localhost]:
+Database [postgres]:
+Port [5432]:
+Username [postgres]:
+"chcp" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+psql (9.4.4)
+ПРЕДУПРЕЖДЕНИЕ: Кодовая страница консоли (866) отличается от основной
+                страницы Windows (1251).
+                8-битовые (русские) символы могут отображаться некорректно.
+                Подробнее об этом смотрите документацию psql, раздел
+                "Notes for Windows users".
+Введите "help", чтобы получить справку.
+
+postgres=# CREATE DATABASE movie;
+CREATE DATABASE
+postgres=# CREATE TABLE Artist(artist_id INT NOT NULL PRIMARY KEY,birthday INT NOT NULL CHECK(birthday>0),name_art TEXT DEFAULT 'undef',surname_art TEXT NOT NULL);
+CREATE TABLE
+postgres=# INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(1,12_04_93,Mark, Denils);
+ОШИБКА:  ошибка синтаксиса (примерное положение: "_04_93")
+СТРОКА 1: ...t_id, birthday, name_art, surname_art) VALUES(1,12_04_93,Mar...
+                                                               ^
+postgres=# INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(1,120493,Mark, Denils);
+ОШИБКА:  колонка "mark" не существует
+СТРОКА 1: ... birthday, name_art, surname_art) VALUES(1,120493,Mark, Deni...
+                                                               ^
+postgres=# INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(1, 120493,'Mark','Denils');
+INSERT 0 1
+postgres=# INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(2, 020795,'Juli','Klin');
+INSERT 0 1
+postgres=# INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(3, 100785,'Ann','Lirman');
+INSERT 0 1
+postgres=# INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(4, 180497,'Lena','Anabel');
+INSERT 0 1
+postgres=# INSERT INTO Artist(artist_id, birthday, name_art, surname_art) VALUES(5, 210889,'Nina','Dobrev');
+INSERT 0 1
+postgres=# CREATE TABLE Writes(movie_title TEXT NOT NULL PRIMARY KEY, artist_id INT NOT NULL,FOREIGN KEY(artist_id) REFERENCES Artist(artist_id);
+postgres(# CREATE TABLE Writes(movie_title TEXT NOT NULL PRIMARY KEY, artist_id INT NOT NULL,FOREIGN KEY(artist_id) REFERENCES Artist(artist_id));
+postgres(# )
+postgres-# ;
+ОШИБКА:  ошибка синтаксиса (примерное положение: ";")
+СТРОКА 1: ...OT NULL,FOREIGN KEY(artist_id) REFERENCES Artist(artist_id);
+                                                                        ^
+postgres=# CREATE TABLE Writes(movie_title TEXT NOT NULL PRIMARY KEY, artist_id INT NOT NULL,FOREIGN KEY(artist_id) REFERENCES Artist(artist_id));
+CREATE TABLE
+postgres=# INSERT INTO Writes(movie_title, artist_id) VALUES('Future', 2);
+INSERT 0 1
+postgres=# INSERT INTO Writes(movie_title, artist_id) VALUES('Summer', 5);
+INSERT 0 1
+postgres=# INSERT INTO Writes(movie_title, artist_id) VALUES('Remember', 1);
+INSERT 0 1
+postgres=# INSERT INTO Writes(movie_title, artist_id) VALUES('Home', 3);
+INSERT 0 1
+postgres=# INSERT INTO Writes(movie_title, artist_id) VALUES('New Year', 3);
+INSERT 0 1
+postgres=# INSERT INTO Writes(movie_title, artist_id) VALUES('New Year', 4);
+ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "writes_pkey"
+ПОДРОБНОСТИ:  Ключ "(movie_title)=(New Year)" уже существует.
+postgres=# INSERT INTO Writes(movie_title, artist_id) VALUES('Cry', 4);
+INSERT 0 1
+postgres=# CREATE TABLE Acts(n_movie INT NOT NULL PRIMARY KEY, movie_title TEXT NOT NULL UNIQUE, artist_id INT NOT NULL, FOREIGN KEY(movie_title) REFERENCES Writes(movie_title), FOREIGN KEY(artist_id) REFERENCES Artist(artist_id);
+postgres(# );
+ОШИБКА:  ошибка синтаксиса (примерное положение: ";")
+СТРОКА 1: ...title), FOREIGN KEY(artist_id) REFERENCES Artist(artist_id);
+                                                                        ^
+postgres=# CREATE TABLE Acts(n_movie INT NOT NULL PRIMARY KEY, movie_title TEXT NOT NULL UNIQUE, artist_id INT NOT NULL, FOREIGN KEY(movie_title) REFERENCES Writes(movie_title), FOREIGN KEY(artist_id) REFERENCES Artist(artist_id));
+CREATE TABLE
+postgres=# ADD AUTO INCREMENT n_movie INT;
+ОШИБКА:  ошибка синтаксиса (примерное положение: "ADD")
+СТРОКА 1: ADD AUTO INCREMENT n_movie INT;
+          ^
+postgres=# INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(1, 'Remember', 1);
+INSERT 0 1
+postgres=# INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(2, 'Future', 2);
+INSERT 0 1
+postgres=# INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(3, 'Home', 3);
+INSERT 0 1
+postgres=# INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(4, 'New Year', 3);
+INSERT 0 1
+postgres=# INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(5, 'Cry', 4);
+INSERT 0 1
+postgres=# INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(6, 'Cry', 5);
+ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "acts_movie_title_key"
+ПОДРОБНОСТИ:  Ключ "(movie_title)=(Cry)" уже существует.
+postgres=# INSERT INTO Acts(n_movie, movie_title, artist_id) VALUES(6, 'Summer', 5);
+INSERT 0 1
+postgres=# CREATE TABLE Studio(studio_name TEXT PRIMARY KEY, address TEXT NOT NULL);
+CREATE TABLE
+postgres=# INSERT INTO Studio
+postgres-# (studio_name, address) VALUES('DV', '45f')
+postgres-# ;
+INSERT 0 1
+postgres=# (studio_name, address) VALUES('A&V', '558');
+ОШИБКА:  ошибка синтаксиса (примерное положение: "studio_name")
+СТРОКА 1: (studio_name, address) VALUES('A&V', '558');
+           ^
+postgres=# (studio_name, address) VALUES('TTim', 'ph31');
+ОШИБКА:  ошибка синтаксиса (примерное положение: "studio_name")
+СТРОКА 1: (studio_name, address) VALUES('TTim', 'ph31');
+           ^
+postgres=# ( studio_name, address) VALUES('TTim', 'ph31');
+ОШИБКА:  ошибка синтаксиса (примерное положение: "studio_name")
+СТРОКА 1: ( studio_name, address) VALUES('TTim', 'ph31');
+            ^
+postgres=# INSERT INTO Studio(studio_name, address) VALUES('A&V', '558');
+INSERT 0 1
+postgres=# INSERT INTO Studio(studio_name, address) VALUES('TTeam', 'ph31');
+INSERT 0 1
+postgres=# CREATE TABLE Movie(movie_title TEXT NOT NULL UNIQUE, studio_name TEXT NOT NULL, FOREIGN KEY(movie_title) REFERENCES Writes(movie_title), FOREIGN KEY(studio_name) REFERENCES Studio(studio_name));
+CREATE TABLE
+postgres=# INSERT INTO Movie(movie_title, movie_name) VALUES('Future','TTeam');
+ОШИБКА:  колонка "movie_name" в таблице "movie" не существует
+СТРОКА 1: INSERT INTO Movie(movie_title, movie_name) VALUES('Future','...
+                                         ^
+postgres=# INSERT INTO Movie(movie_title, studio_name) VALUES('Future','TTeam');
+INSERT 0 1
+postgres=# INSERT INTO Movie(movie_title, studio_name) VALUES('Summer','TTeam');
+INSERT 0 1
+postgres=# INSERT INTO Movie(movie_title, studio_name) VALUES('Remember','A&V');
+INSERT 0 1
+postgres=# INSERT INTO Movie(movie_title, studio_name) VALUES('Home','DV');
+INSERT 0 1
+postgres=# INSERT INTO Movie(movie_title, studio_name) VALUES('New Year','DV');
+INSERT 0 1
+postgres=# INSERT INTO Movie(movie_title, studio_name) VALUES('Cry','DV');
+INSERT 0 1
+postgres=# movie.dbo.Acts;
+ОШИБКА:  ошибка синтаксиса (примерное положение: "movie")
+СТРОКА 1: movie.dbo.Acts;
+          ^
+postgres=#
