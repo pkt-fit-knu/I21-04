@@ -1,0 +1,12 @@
+E:\FILE LIBRARY\DOWNLOAD\NAZAR\Мои документы\SharpDevelop Projects\CYB_LAB_TK3\CHMO\II\Differential\Differential\bin\Debug\Differential.exe
+E:\FILE LIBRARY\DOWNLOAD\NAZAR\Мои документы\SharpDevelop Projects\CYB_LAB_TK3\CHMO\II\Differential\Differential\bin\Debug\Differential.pdb
+E:\FILE LIBRARY\DOWNLOAD\NAZAR\Мои документы\SharpDevelop Projects\CYB_LAB_TK3\CHMO\II\Differential\Differential\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\FILE LIBRARY\DOWNLOAD\NAZAR\Мои документы\SharpDevelop Projects\CYB_LAB_TK3\CHMO\II\Differential\Differential\obj\x86\Debug\Differential.exe
+E:\FILE LIBRARY\DOWNLOAD\NAZAR\Мои документы\SharpDevelop Projects\CYB_LAB_TK3\CHMO\II\Differential\Differential\obj\x86\Debug\Differential.pdb
+J:\TK-3_Zdorovylo_Nazar_ChM\Zad_Koshi\Differential\obj\x86\Debug\Differential.exe
+J:\TK-3_Zdorovylo_Nazar_ChM\Zad_Koshi\Differential\obj\x86\Debug\Differential.pdb
+C:\Users\Dasha\Downloads\dasha (2)\Zadacha_Koshi\Differential\obj\x86\Debug\Differential.exe
+C:\Users\Dasha\Downloads\dasha (2)\Zadacha_Koshi\Differential\obj\x86\Debug\Differential.pdb
+C:\Users\Dasha\Downloads\dasha (2)\Zadacha_Koshi\Differential\bin\Debug\Differential.exe
+C:\Users\Dasha\Downloads\dasha (2)\Zadacha_Koshi\Differential\bin\Debug\Differential.pdb
+C:\Users\Dasha\Downloads\dasha (2)\Zadacha_Koshi\Differential\obj\x86\Debug\Differential.csprojResolveAssemblyReference.cache
