@@ -1,0 +1,37 @@
+﻿<Window x:Class="Graphs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Графи" Height="562" Width="918" MouseDown="canva_MouseDown" MouseMove="canva_MouseMove" MouseUp="canva_MouseUp">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="232*" />
+            <ColumnDefinition Width="664*" />
+        </Grid.ColumnDefinitions>
+        <Canvas x:Name="canva" Grid.ColumnSpan="2">
+            <Label Canvas.Left="213" Canvas.Top="28" Content="Переміщення" Height="28" Name="Operation" />
+            <Label Canvas.Left="129" Canvas.Top="28" Content="Інструмент:" Height="28" Name="label2" />
+            <Label Canvas.Left="6" Canvas.Top="29" Content="Вершина:" Height="28" Name="label3" />
+            <Label Canvas.Left="78" Canvas.Top="30" Content="-" Height="28" Name="ActiveNum" />
+            <Label Canvas.Left="660" Canvas.Top="28" Content="" Height="162" Name="output" Width="221" />
+        </Canvas>
+        <Menu Height="23" Name="menu1" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Stretch">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Відкрити" Click="button7_Click" />
+                <MenuItem Header="Зберігти" Click="button8_Click" />
+                <Separator />
+                <MenuItem Header="Вихід" Click="MenuItem_Click" />
+            </MenuItem>
+            <MenuItem Header="Редагування">
+                <MenuItem Header="Додати вершину" Click="button1_Click" />
+                <MenuItem Header="Перемістити" Click="button3_Click" />
+                <MenuItem Header="Видалити" Click="button4_Click" />
+                <MenuItem Header="Додати ребро" Click="MenuItem_Click_1" />
+            </MenuItem>
+            <MenuItem Header="Алгоритм">
+                <MenuItem Header="Діаметр" Click="button5_Click" />
+                <MenuItem Header="Гамільтонів шлях" Click="button6_Click" />
+            </MenuItem>
+            <MenuItem Header="Про автора" Click="MenuItem_Click_2" />          
+        </Menu>
+    </Grid>
+</Window>

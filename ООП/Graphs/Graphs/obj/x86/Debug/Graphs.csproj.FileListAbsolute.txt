@@ -1,0 +1,31 @@
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\MainWindow.baml
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\MainWindow.g.cs
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\App.g.cs
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\Graphs_MarkupCompile.cache
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\Graphs.g.resources
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\Graphs.Properties.Resources.resources
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\bin\Debug\Graphs.exe
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\bin\Debug\Graphs.pdb
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\Graphs.exe
+c:\users\анатолий\documents\visual studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\Graphs.pdb
+C:\Users\Анатолий\Documents\Visual Studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\addedge.baml
+C:\Users\Анатолий\Documents\Visual Studio 2010\Projects\Graphs\Graphs\obj\x86\Debug\addedge.g.cs
+D:\Юлькино\Универ\II курс\Прога\Graphs\Graphs\Graphs\obj\x86\Debug\Graphs.exe
+D:\Юлькино\Универ\II курс\Прога\Graphs\Graphs\Graphs\obj\x86\Debug\Graphs.pdb
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\Graphs.exe
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\Graphs.pdb
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\bin\Debug\Graphs.exe
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\bin\Debug\Graphs.pdb
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\Graphs.csprojResolveAssemblyReference.cache
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\addedge.baml
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\MainWindow.baml
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\addedge.g.cs
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\App.g.cs
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\Graphs_MarkupCompile.cache
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\Graphs.g.resources
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\Graphs.Properties.Resources.resources
+C:\Users\Dasha\Downloads\rar (1)\даша\Graphs\Graphs\obj\x86\Debug\Graphs.csproj.GenerateResource.Cache
