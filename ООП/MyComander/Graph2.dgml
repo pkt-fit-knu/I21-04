@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="CodeSchema_Project" Bounds="0,55.96,112.79556651445,26.0022331811163" Label="MyComander" />
+    <Node Id="(@2)" Category="CodeSchema_Solution" Bounds="10.5011165905581,0,91.7933333333333,25.96" Label="MyComander" />
+  </Nodes>
+  <Links>
+    <Link Source="(@2)" Target="(@1)" Category="Contains" Bounds="56.3977813720703,25.9599990844727,0,21" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Project" Label="Проект" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_ProjectItem" Icon="CodeSchema_Project" NavigationActionLabel="Проекты" />
+    <Category Id="CodeSchema_Solution" Label="Решение" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" NavigationActionLabel="Решения" />
+    <Category Id="Contains" Label="Содержит" Description="Указывает, содержит ли источник связи целевой объект" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Содержится в" IsContainment="True" OutgoingActionLabel="Содержит" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/MyComander/MyComander.csproj" />
+    <Alias n="2" Uri="Assembly=$(VsSolutionUri)/MyComander.sln" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="VsSolutionUri" Value="file:///E:/Wsl_F/учеба/proga/lab1_2/lab1/MyComander" />
+  </Paths>
+</DirectedGraph>

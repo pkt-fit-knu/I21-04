@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="CodeSchema_Solution" Bounds="10.5,0,91.7933333333334,25.96" Label="MyComander" />
+    <Node Id="(@3 Namespace=MyComander Type=Form1)" Category="CodeSchema_Class" Bounds="18.9616666666667,111.96,74.87,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Form1" Icon="Microsoft.VisualStudio.Class.Public" Label="Form1" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/Wsl_F/учеба/proga/lab1_2/lab1/MyComander/MyComander/Form1.cs StartLineNumber=13 StartCharacterOffset=4 EndLineNumber=13 EndCharacterOffset=4)" />
+    <Node Id="@2" Category="CodeSchema_Namespace" Bounds="-7.105427357601E-15,55.96,112.793333333333,26" Icon="Microsoft.VisualStudio.Namespace.Public" Label="MyComander" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1)" Target="@2" Category="Contains" Bounds="56.3966674804688,25.9599990844727,0,21" />
+    <Link Source="@2" Target="(@3 Namespace=MyComander Type=Form1)" Category="Contains" Bounds="56.3966674804688,81.9599990844727,0,21" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="Класс" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Классы" />
+    <Category Id="CodeSchema_Namespace" Label="Пространство имен" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Пространства имен" />
+    <Category Id="CodeSchema_Solution" Label="Решение" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" NavigationActionLabel="Решения" />
+    <Category Id="CodeSchema_Type" Label="Тип" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Типы" />
+    <Category Id="Contains" Label="Содержит" Description="Указывает, содержит ли источник связи целевой объект" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Содержится в" IsContainment="True" OutgoingActionLabel="Содержит" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Является Public" Description="Флаг, указывающий на область видимости Public" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="Language" Label="Язык" Description="Язык" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Номер начальной строки" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+    <Name Id="Namespace" Label="Пространство имен" ValueType="System.String" />
+    <Name Id="Type" Label="Тип" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/MyComander.sln" />
+    <Alias n="2" Id="(Namespace=MyComander)" />
+    <Alias n="3" Uri="Assembly=$(d949f831-a13c-4e00-9bba-58c283d79bcb.OutputPathUri)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="d949f831-a13c-4e00-9bba-58c283d79bcb.OutputPathUri" Value="file:///E:/Wsl_F/учеба/proga/lab1_2/lab1/MyComander/MyComander/bin/Debug/MyComander.exe" />
+    <Path Id="VsSolutionUri" Value="file:///E:/Wsl_F/учеба/proga/lab1_2/lab1/MyComander" />
+  </Paths>
+</DirectedGraph>

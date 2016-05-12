@@ -1,0 +1,9 @@
+E:\Wsl_F\учеба\proga\lab1_2\lab1\MyComander\MyComander\bin\Release\MyComander.exe.config
+E:\Wsl_F\учеба\proga\lab1_2\lab1\MyComander\MyComander\bin\Release\MyComander.exe
+E:\Wsl_F\учеба\proga\lab1_2\lab1\MyComander\MyComander\bin\Release\MyComander.pdb
+E:\Wsl_F\учеба\proga\lab1_2\lab1\MyComander\MyComander\obj\Release\MyComander.Form1.resources
+E:\Wsl_F\учеба\proga\lab1_2\lab1\MyComander\MyComander\obj\Release\MyComander.newFolder.resources
+E:\Wsl_F\учеба\proga\lab1_2\lab1\MyComander\MyComander\obj\Release\MyComander.Properties.Resources.resources
+E:\Wsl_F\учеба\proga\lab1_2\lab1\MyComander\MyComander\obj\Release\MyComander.csproj.GenerateResource.Cache
+E:\Wsl_F\учеба\proga\lab1_2\lab1\MyComander\MyComander\obj\Release\MyComander.exe
+E:\Wsl_F\учеба\proga\lab1_2\lab1\MyComander\MyComander\obj\Release\MyComander.pdb
