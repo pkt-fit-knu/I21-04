@@ -1,0 +1,17 @@
+E:\FILE LIBRARY\DOWNLOAD\NAZAR\Мои документы\SharpDevelop Projects\CYB_LAB_TK3\CHMO\II\Integration\Integration\bin\Debug\Integration.exe
+E:\FILE LIBRARY\DOWNLOAD\NAZAR\Мои документы\SharpDevelop Projects\CYB_LAB_TK3\CHMO\II\Integration\Integration\bin\Debug\Integration.pdb
+E:\FILE LIBRARY\DOWNLOAD\NAZAR\Мои документы\SharpDevelop Projects\CYB_LAB_TK3\CHMO\II\Integration\Integration\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\FILE LIBRARY\DOWNLOAD\NAZAR\Мои документы\SharpDevelop Projects\CYB_LAB_TK3\CHMO\II\Integration\Integration\obj\x86\Debug\Integration.exe
+E:\FILE LIBRARY\DOWNLOAD\NAZAR\Мои документы\SharpDevelop Projects\CYB_LAB_TK3\CHMO\II\Integration\Integration\obj\x86\Debug\Integration.pdb
+D:\Універ\ЧМ\TK-3_Zdorovylo_Nazar_ChM\Integration\Integration\obj\x86\Debug\Integration.exe
+D:\Універ\ЧМ\TK-3_Zdorovylo_Nazar_ChM\Integration\Integration\obj\x86\Debug\Integration.pdb
+D:\Універ\ЧМ\TK-3_Zdorovylo_Nazar_ChM\Integration\Integration\bin\Debug\Integration.exe
+D:\Універ\ЧМ\TK-3_Zdorovylo_Nazar_ChM\Integration\Integration\bin\Debug\Integration.pdb
+D:\Універ\ЧМ\TK-3_Zdorovylo_Nazar_ChM\Integration\Integration\obj\x86\Debug\Integration.csprojResolveAssemblyReference.cache
+J:\TK-3_Zdorovylo_Nazar_ChM\Integration\Integration\obj\x86\Debug\Integration.exe
+J:\TK-3_Zdorovylo_Nazar_ChM\Integration\Integration\obj\x86\Debug\Integration.pdb
+C:\Users\Dasha\Downloads\dasha (2)\Integration\Integration\obj\x86\Debug\Integration.exe
+C:\Users\Dasha\Downloads\dasha (2)\Integration\Integration\obj\x86\Debug\Integration.pdb
+C:\Users\Dasha\Downloads\dasha (2)\Integration\Integration\bin\Debug\Integration.exe
+C:\Users\Dasha\Downloads\dasha (2)\Integration\Integration\bin\Debug\Integration.pdb
+C:\Users\Dasha\Downloads\dasha (2)\Integration\Integration\obj\x86\Debug\Integration.csprojResolveAssemblyReference.cache
