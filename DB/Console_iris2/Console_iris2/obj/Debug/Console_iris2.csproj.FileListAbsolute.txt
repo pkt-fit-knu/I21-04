@@ -1,0 +1,8 @@
+D:\FIT\Програмування\2\prog\Console_iris2\Console_iris2\bin\Debug\Console_iris2.exe.config
+D:\FIT\Програмування\2\prog\Console_iris2\Console_iris2\bin\Debug\Console_iris2.exe
+D:\FIT\Програмування\2\prog\Console_iris2\Console_iris2\bin\Debug\Console_iris2.pdb
+D:\FIT\Програмування\2\prog\Console_iris2\Console_iris2\obj\Debug\Console_iris2.exe
+D:\FIT\Програмування\2\prog\Console_iris2\Console_iris2\obj\Debug\Console_iris2.pdb
+D:\FIT\Програмування\2\prog\Console_iris2\Console_iris2\obj\Debug\Console_iris2.Properties.Resources.resources
+D:\FIT\Програмування\2\prog\Console_iris2\Console_iris2\obj\Debug\Console_iris2.csproj.GenerateResource.Cache
+D:\FIT\Програмування\2\prog\Console_iris2\Console_iris2\bin\Debug\Resources\IrisData.txt
