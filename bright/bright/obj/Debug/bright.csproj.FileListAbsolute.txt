@@ -1,0 +1,43 @@
+C:\Users\Дмитро\Documents\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\bin\Debug\brightness_histogram.exe.config
+C:\Users\Дмитро\Documents\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\bin\Debug\brightness_histogram.exe
+C:\Users\Дмитро\Documents\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\bin\Debug\brightness_histogram.pdb
+C:\Users\Дмитро\Documents\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.csprojResolveAssemblyReference.cache
+C:\Users\Дмитро\Documents\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.Properties.Resources.resources
+C:\Users\Дмитро\Documents\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.csproj.GenerateResource.Cache
+C:\Users\Дмитро\Documents\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.exe
+C:\Users\Дмитро\Documents\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.pdb
+C:\Users\Дмитро\Documents\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.Form1.resources
+C:\Users\Дмитро\Documents\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\bin\Debug\Program.cs
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\bin\Debug\brightness_histogram.exe.config
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.exe
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.pdb
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\bin\Debug\Program.cs
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\bin\Debug\brightness_histogram.exe
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\bin\Debug\brightness_histogram.pdb
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.csprojResolveAssemblyReference.cache
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.Form1.resources
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.Properties.Resources.resources
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.csproj.GenerateResource.Cache
+D:\doc\Visual Studio 2015\Projects\brightness_histogram\brightness_histogram\bin\Debug\image.png
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\bin\Debug\brightness_histogram.exe.config
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.exe
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.pdb
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\bin\Debug\image.png
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\bin\Debug\Program.cs
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\bin\Debug\brightness_histogram.exe
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\bin\Debug\brightness_histogram.pdb
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.csprojResolveAssemblyReference.cache
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\obj\Debug\brightness_histogram.csproj.GenerateResource.Cache
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\obj\Debug\bright_histog.Form1.resources
+C:\Users\Dasha\Downloads\brightness_histogram\brightness_histogram\obj\Debug\bright_histog.Properties.Resources.resources
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\bin\Debug\brightness_histogram.exe.config
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\obj\Debug\brightness_histogram.exe
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\obj\Debug\brightness_histogram.pdb
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\bin\Debug\image.png
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\bin\Debug\Program.cs
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\bin\Debug\brightness_histogram.exe
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\bin\Debug\brightness_histogram.pdb
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\obj\Debug\brightness_histogram.csprojResolveAssemblyReference.cache
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\obj\Debug\bright_histog.Form1.resources
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\obj\Debug\bright_histog.Properties.Resources.resources
+D:\FIT\Програмування\2\brightpicture\brightness_histogram\obj\Debug\brightness_histogram.csproj.GenerateResource.Cache
