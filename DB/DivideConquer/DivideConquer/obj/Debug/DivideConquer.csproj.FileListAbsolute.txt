@@ -1,0 +1,6 @@
+D:\FIT\Програмування\2\prog\DivideConquer\DivideConquer\bin\Debug\DivideConquer.exe.config
+D:\FIT\Програмування\2\prog\DivideConquer\DivideConquer\bin\Debug\DivideConquer.exe
+D:\FIT\Програмування\2\prog\DivideConquer\DivideConquer\bin\Debug\DivideConquer.pdb
+D:\FIT\Програмування\2\prog\DivideConquer\DivideConquer\obj\Debug\DivideConquer.csprojResolveAssemblyReference.cache
+D:\FIT\Програмування\2\prog\DivideConquer\DivideConquer\obj\Debug\DivideConquer.exe
+D:\FIT\Програмування\2\prog\DivideConquer\DivideConquer\obj\Debug\DivideConquer.pdb
