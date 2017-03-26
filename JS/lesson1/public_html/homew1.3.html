@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <script>
+        
+        var arr1 = [[2,5,6],[4,2,3]];
+               
+        
+         function bigToSmall(arr1){
+             var b = arr1.join().split(',').sort(function(a, b) { 
+                 return b -  a; 
+           });
+         
+                          
+                  var newArr= [];
+                  for(var i = 0; i < arr1.length; i++){
+                      newArr[i] = b.splice(0, arr1[0].length);
+                      
+                  } 
+               
+                 newArr = newArr.join().replace(/,/g,">");
+                  document.write(newArr);
+              
+         }
+            
+             bigToSmall(arr1);
+
+                         
+         
+        
+       
+        
+        </script>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

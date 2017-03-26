@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+                 var arrNumber = [1,2,31,24,-67,5,3,555,79,-4,21,33,89,-90];
+     var k = 0;
+     var n = 0;
+    for(var i = 0; i < arrNumber.length; i++){
+    
+         if(k <= arrNumber[i]){
+            k = arrNumber[i];
+         }
+        if(n >= arrNumber[i]){
+             n = arrNumber[i];
+         } 
+         var arrNumberSort = arrNumber;
+    
+         if( arrNumberSort[i]%2!==0||arrNumberSort[i]<0){
+         delete arrNumberSort[i];
+     }
+     }
+     document.write(k);
+     document.write(n);
+     document.write(arrNumberSort);
+                 </script>
+         </head>
+         <body>
+             <div>TODO write content</div>
+         </body>
+     </html>

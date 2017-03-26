@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            var myObj = {
+                
+               first: "1",
+               second: "2",
+               third: false,
+               fourth: ["anytime",2,3,4],
+               fifth:  null
+             
+            };
+            function strCount(myObj){
+                counter = 0;
+                for(var key in myObj){
+                    if(typeof myObj[key]=== 'string'){
+                        counter++;
+                    }else if(typeof myObj[key]=== 'object' ){
+                        var ob = [myObj[key]];
+                        for(var i=0; i< ob.length; i++ )
+                            if(typeof ob[i] === 'string'){
+                                counter++;
+                            }
+                        /*for(var i=0; i < myObj[key].length; i++){
+                            if(myObj[key][i] ==='string'){
+                                 counter++;
+                            }*/
+                          // counter++;
+                        //}
+                    }
+                   
+                    
+                }
+                return alert(counter);
+            }
+                 
+             strCount(myObj);    
+             
+            </script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>

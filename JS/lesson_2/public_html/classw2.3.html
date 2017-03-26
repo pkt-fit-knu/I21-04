@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+        function makeArmy() {
+          var shooters = []; 
+
+             for (var i = 0; i< 10; i++) {
+                 var shooter = function a() {
+                  alert( a.i );
+                  
+                  /*2 способ
+                   var shooter = (function(i) {
+                      return function() {
+                          alert( i );
+                       };
+                   })(i);
+                   */
+                  
+                /*3 способ
+                  for (var i = 0; i < 10; i++)(function(i) {
+
+                       var shooter = function() {
+                          alert( i );
+                      };
+
+                      shooters.push(shooter);
+
+                   })(i);
+                 */
+                     };
+                    shooter.i = i; 
+                     shooters.push(shooter); 
+                   } 
+                return shooters; 
+                 }
+             var army = makeArmy(); 
+             army[0](); // стрелок выводит 10, а должен 0
+             army[5](); // стрелок выводит 10, а должен 5. 
+</script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>

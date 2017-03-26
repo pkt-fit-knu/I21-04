@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script>
+            var arr = [1, 90, 789, 56, 45, 34, 678, 78, -90, -6, 5, 3, 6];
+
+               function sort(arr){
+                  
+                    var sw;
+                    do{
+                        sw = false;
+                    
+                 for(var i=0; i<arr.length-1; i++){
+    
+                 
+                   if(arr[i]>arr[i+1]){
+                         var l = arr[i];
+                         arr[i] = arr[i+1];
+                         arr[i+1] = l;
+                         sw = true;
+                    }
+                }
+                   
+                 } while(sw);
+                 
+             }
+                
+            sort(arr);
+            document.write(arr);
+            
+                 
+        </script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>
